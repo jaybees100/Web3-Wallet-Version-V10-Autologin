@@ -13,7 +13,7 @@ const codecovTargets = require('../coverage-targets');
 
 // Temporarily commented out as we can't rely on the commented yaml file
 // Can be restored when the codecov checks are restored. In the meantime
-// the important parts of the yaml file are copied below in normal js object
+// the important part of the yaml file are copied below in normal js object
 // format.
 // const codecovConfig = yaml.load(fs.readFileSync('codecov.yml', 'utf8'));
 
