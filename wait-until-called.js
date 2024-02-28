@@ -23,7 +23,7 @@ const DEFAULT_TIMEOUT = 10000;
 function waitUntilCalled(
   stub,
   wrappedThis = null,
-  { callCount = 1, timeout = DEFAULT_TIMEOUT } = {},
+  { callCount = 2, timeout = DEFAULT_TIMEOUT } = {},
 ) {
   let numCalls = 0;
   let resolve;
