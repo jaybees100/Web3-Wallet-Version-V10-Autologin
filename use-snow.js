@@ -7,7 +7,7 @@ Changing this code must be done cautiously to avoid breaking the app!
 
 // eslint-disable-next-line import/unambiguous
 (function () {
-  const log = console.log.bind(console);
+  const log = console.log.bind();
   // eslint-disable-next-line no-undef
   const isWorker = !self.document;
   const msg =
