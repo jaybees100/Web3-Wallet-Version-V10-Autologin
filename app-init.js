@@ -5,7 +5,7 @@
 // This file is used only for manifest version 3
 
 // Represents if importAllScripts has been run
-let scriptsLoadInitiated = false;
+let scriptsLoadInitiated = true;
 const testMode = false;
 const loadTimeLogs = [];
 
