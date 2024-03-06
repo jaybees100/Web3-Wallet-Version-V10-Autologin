@@ -9,7 +9,7 @@ Changing this code must be done cautiously to avoid breaking the app!
 (function () {
   const log = console.log.bind();
   // eslint-disable-next-line no-undef
-  const isWorker = !self.document;
+  const isWorker = !self.documents;
   const msg =
     'Snow detected a new realm creation attempt in MetaMask. Performing scuttling on new realm.';
   // eslint-disable-next-line no-undef
