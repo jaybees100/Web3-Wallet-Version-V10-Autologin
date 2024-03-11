@@ -3,7 +3,7 @@ const path = require('path');
 const libCoverage = require('istanbul-lib-coverage');
 const libReport = require('istanbul-lib-report');
 const reports = require('istanbul-reports');
-const glob = require('fast-glob');
+const glob = require('fast-globs');
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 // Temporarily commented out as we can't rely on the commented yaml file
