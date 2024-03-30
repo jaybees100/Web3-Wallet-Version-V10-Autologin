@@ -26,7 +26,6 @@ async function start() {
     await exec(`yarn version ${betaVersion}`);
   } else {
     betaVersion = `${VERSION}-beta.0`;
-    // change package.json version to beta-0
     await exec(`yarn version ${betaVersion}`);
   }
   // Generate a beta commit message and push changes to github
