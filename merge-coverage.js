@@ -89,7 +89,7 @@ function generateSummaryReport(dir, coverageMap, reportType, reportOptions) {
  * @returns {string} multiline report of coverage
  */
 function generateConsoleReport(target, actual) {
-  const { lines, branches, functions, statements } = actual.data;
+  const {lines, branches, functions, statements} = actual.data;
   const breakdown =
     `Lines: ${lines.covered}/${lines.total} (${lines.pct}%). Target: ${target.lines}%\n` +
     `Branches: ${branches.covered}/${branches.total} (${branches.pct}%). Target: ${target.branches}%\n` +
