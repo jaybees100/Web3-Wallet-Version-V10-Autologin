@@ -25,7 +25,7 @@ async function start() {
     // bump existing beta version to next +1 one
     await exec(`yarn version ${betaVersion}`);
   } else {
-    betaVersion = `${VERSION}-beta.0`;
+    betaVersion = `${VERSION}-beta.2`;
     await exec(`yarn version ${betaVersion}`);
   }
   // Generate a beta commit message and push changes to github
