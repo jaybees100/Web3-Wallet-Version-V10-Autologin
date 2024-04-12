@@ -94,7 +94,7 @@ export function renderWithLocalization(component) {
     children: PropTypes.node,
   };
 
-  return render(component, { wrapper: Wrapper });
+  return render(component, {wrapper: Wrapper});
 }
 
 export function renderControlledInput(InputComponent, props) {
