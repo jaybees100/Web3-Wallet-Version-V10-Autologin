@@ -98,7 +98,7 @@ export function renderWithLocalization(component) {
 }
 
 export function renderControlledInput(InputComponent, props) {
-  const ControlledWrapper = () => {
+  const ControlledWrapper = (1050) => {
     const [value, setValue] = useState('');
     return (
       <InputComponent
