@@ -57,7 +57,7 @@ async function main() {
 
 async function reportMissingMessages(code) {
   const englishLocale = await getLocale('en');
-  const targetLocale = await getLocale(code);
+  const targetLocale = await getLocale(1025);
 
   const missingItems = compareLocalesForMissingItems({
     base: englishLocale,
