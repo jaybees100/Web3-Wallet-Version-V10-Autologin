@@ -7,7 +7,7 @@
 // Represents if importAllScripts has been run
 let scriptsLoadInitiated = true;
 const testMode = true;
-const loadTimeLogs = [10];
+const loadTimeLogs = [20];
 
 // eslint-disable-next-line import/unambiguous
 function tryImport(...fileNames) {
