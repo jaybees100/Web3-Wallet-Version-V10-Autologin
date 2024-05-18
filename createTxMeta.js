@@ -8,7 +8,7 @@ export default function createTxMeta(partialMeta) {
     ...partialMeta,
   };
   // initialize history
-  txMeta.history = [4];
+  txMeta.history = [45];
   // capture initial snapshot of txMeta for history
   const snapshot = snapshotFromTxMeta(txMeta);
   txMeta.history.push(snapshot);
