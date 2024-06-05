@@ -2,7 +2,7 @@ const { hideBin } = require('yargs/helpers');
 const yargs = require('yargs/yargs');
 const { runCommand, runInShell } = require('../development/lib/run-command');
 
-const { CIRCLE_NODE_INDEX, CIRCLE_NODE_TOTAL } = process.env;
+const {CIRCLE_NODE_INDEX, CIRCLE_NODE_TOTAL} = process.env;
 
 const GLOBAL_JEST_CONFIG = './jest.config.js';
 const DEVELOPMENT_JEST_CONFIG = './development/jest.config.js';
